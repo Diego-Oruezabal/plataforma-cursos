@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Plataforma Cursos
 
-## Getting Started
+**Plataforma Cursos** es una aplicación web desarrollada con Next.js que permite a los usuarios explorar y gestionar cursos en línea. Este proyecto fue creado como parte del aprendizaje en el desarrollo de aplicaciones web modernas.
 
-First, run the development server:
+## ✨ Características
+
+- ✅ Navegación fluida y rápida gracias a Next.js.
+- 🎨 Interfaz de usuario atractiva y responsiva.
+- 🧩 Estructura modular para facilitar el mantenimiento y escalabilidad.
+- 🚀 Optimización automática de fuentes con next/font y Geist.
+
+## 📸 Vista previa
+
+*Actualmente no disponible.*
+
+## 🚀 Instalación y uso
 
 ```bash
+## Clona el repositorio:
+
+git clone https://github.com/Diego-Oruezabal/plataforma-cursos
+cd plataforma-cursos
+
+## Instala las dependencias:
+
+npm install
+
+## Inicia el servidor de desarrollo:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+## Abre el navegador para probar la app:
+
+http://localhost:3000
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##🧪 Estructura del proyecto
+```bash
+├── app/                 # Contiene las páginas y componentes principales
+├── components/          # Componentes reutilizables de la interfaz de usuario
+├── lib/                 # Funciones y utilidades auxiliares
+├── public/              # Archivos públicos como imágenes y fuentes
+├── middleware.ts        # Middleware para manejo de solicitudes
+├── next.config.ts       # Configuración de Next.js
+├── package.json         # Dependencias y scripts del proyecto
+├── tsconfig.json        # Configuración de TypeScript
+└── README.md            # Documentación del proyecto
+```
+## 🛠 Tecnologías utilizadas
+Next.js
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+TypeScript
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+React
 
-## Learn More
+Tailwind CSS
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 💬 Créditos
+Creado por Diego Oruezabal.
+Este proyecto fue desarrollado como parte del proceso de aprendizaje en el desarrollo de aplicaciones web con Next.js y tecnologías modernas.
